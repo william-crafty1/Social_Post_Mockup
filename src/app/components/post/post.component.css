@@ -1,0 +1,35 @@
+.posts-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    font-family: 'Dosis', sans-serif;
+    border: solid 2px solid black;
+
+}
+
+.post{
+    margin: 0px;
+    padding: 0px;
+    width: 800px;
+    font-family: 'Dosis', sans-serif;
+    border-bottom: 2px solid silver;
+}
+
+h2{
+    margin: 0px;
+    font-size: 24px;
+}
+p{
+    display: flex;
+    margin: 0px;
+    justify-content: space-between;
+}
+
+.remove{
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    border-style: none;
+    cursor: pointer;
+}

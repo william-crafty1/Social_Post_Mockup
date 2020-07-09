@@ -1,0 +1,7 @@
+<form class="post-form" *ngIf="showForm">
+    <label for="title" class="title-label">Title</label>
+    <input type="text" class="title-input" name="title" placeholder="Title of thought" [(ngModel)]="title"/>
+    <label for="thought" class="thought-label">Thought</label>
+    <input type="text" class="thought-input" name="thought" placeholder="What are you thinking?" [(ngModel)]="thought" />
+    <button class="submit-thought" (click)="submitPost()">Add Post</button>
+</form>

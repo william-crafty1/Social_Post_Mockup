@@ -1,0 +1,34 @@
+.post-form {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #B1DDEA;
+}
+
+.title-label {
+    padding: 10px;
+}
+
+.title-input {
+    padding: 10px;
+}
+
+.thought-label {
+    padding: 10px;
+}
+
+.thought-input {
+    padding: 10px;
+}
+
+.submit-thought{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+} 

@@ -1,0 +1,41 @@
+.main-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F3F1F7;
+    height: 100vh;
+    margin: 0px;
+}
+
+h1{
+    color: rgb(3, 169, 244);
+    font-family: 'Homemade Apple', cursive;
+    margin-top: 0px;
+}
+
+.new-thought {
+    width: 800px;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.post-area{
+    border: 2px solid black;
+}
+
+.remove{
+    color: black;
+    font-size: 20px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.form {
+    position: absolute;
+    background-color: black;
+    bottom: 12em;
+    width: 50%;
+    font-family: 'Dosis', sans-serif;
+}

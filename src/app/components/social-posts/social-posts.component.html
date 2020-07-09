@@ -1,0 +1,9 @@
+<div class="main-page">
+    <h1>My Thoughts</h1>
+    <button class="new-thought" (click)="showPostForm()">New Thought</button>
+    <div class="post-area">
+        <app-post *ngFor="let item of posts" [post]="item" (deleted)="onDelete($event)"></app-post>
+    </div>
+    <app-post-form class="form" *ngIf="showForm" (submitted)="onSubmit($event)"></app-post-form>
+</div>
+
